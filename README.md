@@ -6,24 +6,24 @@
 
 ## Major topics:
 
-- Topic 1. Word and sentence tokenization: The first step in most computational analysis tasks (Weeks 1-2)
+**Topic 1. Word and sentence tokenization: The first step in most computational analysis tasks (Weeks 1-2)**
 
 Hands-on activity: develop a set of regular expressions for a rule-based sentence tokenzier for English
 
-- Topic 2. Evaluation of computational approaches to language analysis (Weeks 3-4)
+**Topic 2. Evaluation of computational approaches to language analysis (Weeks 3-4)**
 
 Hands-on activity: manually annotate a gold-standard corpus with sentence boundaries; check inter-annotator reliability; 
 calculate, interpret, and report standard performance metrics (accuracy, precision, recall, F1-score) of the rule-based tokenizer developed in the previous activity
 
-- Topic 3. Computational analysis of English spelling: editing distance (Weeks 5-6)
+**Topic 3. Computational analysis of English spelling: editing distance (Weeks 5-6)**
 
 Hands-on activity: apply dynamic programming to the calculation of Levenshtein distance
 
-- Topic 4. Computational analysis of English morphology: implementations and applications of stemming and POS tagging (Weeks 7-10)
+**Topic 4. Computational analysis of English morphology: implementations and applications of stemming and POS tagging (Weeks 7-10)**
 
 Hands-on activity: implement a rules-based Porter stemmer and a statistical (Viterbi) POS tagger for English
 
-- Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 11-15)
+**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 11-15)**
 
 Hands-on activity: a personal project using an off-the-shelf parser or a manually-annotated treebank
 
