@@ -2,7 +2,7 @@
 
 **Catalog description:** Concepts and practices for analysis of English by computer with emphasis on the applications of computational analysis to problems in applied linguistics such as corpus analysis and recognition of learner language in computer-assisted learning and language assessment.
 
-**Note about computer programming:** This is not a programming class. A working knowledge of a programming language is expected from students who are taking this class, and developing computer programs is highly encouraged for the best outcomes of project-based learning.
+**Note about computer programming:** This is not a programming class. Focused instruction in computer programming is not part of the learning experience in this class. However, a working knowledge of a programming language is expected from students who are taking this class, and developing computer programs is highly encouraged for the best outcomes of project-based learning.
 
 ## Major topics:
 
