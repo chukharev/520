@@ -1,4 +1,4 @@
-# 520
+# 520 Computational Analysis of English
 
 **Catalog description:** Concepts and practices for analysis of English by computer with emphasis on the applications of computational analysis to problems in applied linguistics such as corpus analysis and recognition of learner language in computer-assisted learning and language assessment.
 
@@ -53,7 +53,7 @@ Assessment: participation points (20 max). Participation will be assessed holist
 - substantive contribution to group work on the development of a rule-based stemmer and a POS tagger
 - evidence of the ability to synthesize prior linguistic knowledge for the development of the computational systems
 
-**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 11-15)**
+**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 11-14)**
 
 Learning outcomes:
 
@@ -70,3 +70,8 @@ Assessment: a short paper documenting the final project - 30 points max, accordi
 - precise, succint and reproducible description of methodology - 10 points
 - clear, accurate and unbiased presentation of results (empirical findings or system evaluation) - 10 points
 - discussion of findings within the broader context of research in applied linguistics - 5 points
+
+**Note: There will be no final exam.**
+
+**Grading scale:** 930	=> A, 900	=> A-, 870	=> B+, 830	=> B, etc.
+
