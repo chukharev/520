@@ -10,6 +10,9 @@
 
 **Topic 1. Word and sentence tokenization: The first step in most computational analysis tasks (Weeks 1-2)**
 
+Readings:
+  - [Jurafsky and Martin, Chapter 2]([url](https://web.stanford.edu/~jurafsky/slp3/2.pdf)) - read sections 2.1-2.4
+
 Learning outcomes:
 
 - define the task of computational analysis (as a specific example, research orthographic signals of sentence boundaries)
@@ -36,6 +39,9 @@ Assessment: a two-page write-up about the implementation and evaluation of the t
 
 **Topic 3. Computational analysis of English spelling: editing distance (Weeks 5-6)**
 
+Readings:
+  - [Jurafsky and Martin, Chapter 2]([url](https://web.stanford.edu/~jurafsky/slp3/2.pdf)) - read section 2.5
+
 Learning outcomes:
 
 - explain and use the method of dynamic programming for combinatory optimization
@@ -43,23 +49,24 @@ Learning outcomes:
 
 Assessment: an in-class quiz to demonstrate the understanding of dynamic programming - 5 points max. Rubric will be provided on the quiz.
 
-**Topic 4. Computational analysis of English morphology: implementations and applications of stemming and POS tagging (Weeks 7-8)**
+**Topic 4. Computational analysis of English morphology: Hidden Markov Models (HMM) and Part-of-Speech (POS) tagging (Weeks 7-9)**
 
 Readings:
- - Porter Stemmer (TBD)
- - Viterbi Algorithm (TBD)
+  - [Jurafsky and Martin, Chapter 8](https://web.stanford.edu/~jurafsky/slp3/8.pdf)
 
 Learning outcomes:
 
-- implement a rule-based Porter stemmer using regular expressions
-- explain and use the Viterbi algorithm for POS tagging
+- explain how HMMs work and discuss the simplifying assumptions of HMMs for the POS tagging task
+- explain the logic and the benefits of the Viterbi algorithm for POS tagging
+- implement the training and classification procedures for a statistical (HMM) POS tagger
 
 Assessment: participation points (10 max). Participation will be assessed holistically based on the following criteria:
+
 - consistency of preparation for class, meaningful participation in in-class activities
-- substantive contribution to group work on the development of a rule-based stemmer and a POS tagger
+- substantive contribution to group work on the development of a statistical POS tagger
 - evidence of the ability to synthesize prior linguistic knowledge for the development of the computational systems
 
-**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 9-10)**
+**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 10-11)**
 
 Learning outcomes:
 
@@ -70,7 +77,7 @@ Assessment: participation points (10 max). Participation will be assessed holist
 - consistency of preparation for class, meaningful participation in in-class activities
 - substantive contribution to group work on post-processing syntactic-parse information
 
-**Topic 6. Computational analysis of English semantics: WordNet and embeddings (Weeks 11-12)**
+**Topic 6. Computational analysis of English semantics: WordNet and embeddings (Weeks 12-13)**
 
 Learning outcomes:
 
@@ -81,7 +88,7 @@ Assessment: participation points (10 max). Participation will be assessed holist
 - consistency of preparation for class, meaningful participation in in-class activities
 - substantive contribution to group work on computational semantics
 
-**Personal Project (Weeks 13-15)**
+**Personal Project (Weeks 14-15)**
 
 Possible directions for the personal project include:
  - a corpus-based empirical research study
