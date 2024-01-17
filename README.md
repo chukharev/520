@@ -11,7 +11,7 @@
 **Topic 1. Word and sentence tokenization: The first step in most computational analysis tasks (Weeks 1-2)**
 
 Readings:
-  - [Jurafsky and Martin, Chapter 2]([url](https://web.stanford.edu/~jurafsky/slp3/2.pdf)) - read sections 2.1-2.4
+  - [Jurafsky and Martin, Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf) - read sections 2.1-2.4
 
 Learning outcomes:
 
