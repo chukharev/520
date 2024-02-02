@@ -26,6 +26,11 @@ Assessment: participation points (5 max). Participation will be assessed holisti
 
 **Topic 2. Evaluation of computational approaches to language analysis (Weeks 3-4)**
 
+Readings:
+  - [Hayes & Krippendorff, 2007](Hayes_Krippendorff_2007.pdf)
+  - [Krippendorff, 2011](krippendorff_2011.pdf)
+  - [Powers, 2010](Powers_2010.pdf)
+
 Learning outcomes:
 
 - manually annotate a gold-standard corpus for system evaluation
