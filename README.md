@@ -45,7 +45,7 @@ Assessment: a two-page write-up about the implementation and evaluation of the t
 **Topic 3. Computational analysis of English spelling: editing distance (Weeks 5-6)**
 
 Readings:
-  - [Jurafsky and Martin, Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf) - read section 2.5
+  - [Jurafsky and Martin, Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf) - read sections 2.5, 2.8
 
 Learning outcomes:
 
