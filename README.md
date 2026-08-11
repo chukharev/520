@@ -1,5 +1,3 @@
-# 5200 Computational Analysis of English
-
 **Version:** Fall 2026
 
 ## Overview
