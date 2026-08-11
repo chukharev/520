@@ -1,4 +1,4 @@
-# 520 Computational Analysis of English
+# 5200 Computational Analysis of English
 
 **Version:** Fall 2026
 
