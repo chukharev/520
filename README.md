@@ -1,116 +1,132 @@
 # 520 Computational Analysis of English
 
-**Version:** Spring 2024
+**Version:** Fall 2026
 
-**Catalog description:** Concepts and practices for analysis of English by computer with emphasis on the applications of computational analysis to problems in applied linguistics such as corpus analysis and recognition of learner language in computer-assisted learning and language assessment.
+## Overview
 
-**Note about computer programming:** This is not a programming class. Focused instruction in computer programming is not part of the learning experience in this class. However, a working knowledge of a programming language is expected from students who are taking this class, and developing computer programs is highly encouraged for the best outcomes of project-based learning.
+This course introduces students to fundamental concepts, representations, methods, and algorithms used in computational linguistics and natural language processing. The course emphasizes computational approaches to analyzing English language data, with applications to applied linguistics, language learning, assessment, and linguistic research.
 
-## Major topics:
+---
 
-**Topic 1. Word and sentence tokenization: The first step in most computational analysis tasks (Weeks 1-2)**
+## Course Materials
 
-Readings:
-  - [Jurafsky and Martin, Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf) - read sections 2.1-2.4
+### Required Textbook
 
-Learning outcomes:
+Daniel Jurafsky and James H. Martin, *Speech and Language Processing*, Third Edition.
 
-- define the task of computational analysis (as a specific example, research orthographic signals of sentence boundaries)
-- develop a set of regular expressions for a rule-based sentence tokenzier for English
+The textbook is freely available from the authors:
 
-Assessment: participation points (5 max). Participation will be assessed holistically based on the following criteria:
-- consistency of preparation for class (completion of assigned readings and other homework)
-- meaningful participation in in-class discussions and activities
-- substantive contribution to group work on task definition and system development
-- evidence of the ability to synthesize prior linguistic knowledge for the development of the computational system
+[Speech and Language Processing, Third Edition](https://web.stanford.edu/~jurafsky/slp3/ed3book_jan26.pdf)
 
-**Topic 2. Evaluation of computational approaches to language analysis (Weeks 3-4)**
+---
 
-Readings:
-  - [Hayes & Krippendorff, 2007](Hayes_Krippendorff_2007.pdf)
-  - [Krippendorff, 2011](krippendorff_2011.pdf)
-  - [Powers, 2010](Powers_2010.pdf)
+## Learning Outcomes
 
-Learning outcomes:
+After completing this course, you will attain the following learning outcomes, which are aligned with the program-level learning outcomes of the Applied Linguistics and Technology program:
 
-- manually annotate a gold-standard corpus for system evaluation
-- calculate, interpret, and report inter-annotator reliability using Krippendorff's alpha
-- calculate, interpret, and report standard performance metrics (accuracy, precision, recall, F1-score) of the system
+* Explain fundamental concepts, methods, and applications of computational analysis of English, including corpus linguistics, natural language processing, and computational approaches to learner language analysis.
+* Apply computational tools and techniques to collect, process, and analyze English language data for research, language learning, and assessment purposes.
+* Design, implement, and evaluate algorithms for automating linguistic analysis tasks.
+* Design and evaluate computationally informed research procedures to investigate applied linguistics questions.
+* Communicate computational linguistics findings effectively and demonstrate professional collaboration and independent inquiry in developing and evaluating applications for applied linguistics research and practice.
 
-Assessment: a two-page write-up about the implementation and evaluation of the tokenizer (Methods and Results sections) - 30 points max, according to the following rubric:
-- precise, succinct and reproducible description of the methods - 10 points
-- clear, accurate and unbiased presentation of the results - 10 points
-- correct calculation of the reliability index and the system performance metrics - 10 points
+---
 
-**Topic 3. Computational analysis of English spelling: editing distance (Weeks 5-6)**
+## Course Requirements and Grading
 
-Readings:
-  - [Jurafsky and Martin, Chapter 2](https://web.stanford.edu/~jurafsky/slp3/2.pdf) - read sections 2.5, 2.8
+| Component              |   Weight |
+| ---------------------- | -------: |
+| Module Assessments     |      50% |
+| Final Project and Exam |      30% |
+| In-class Participation |      20% |
+| **Total**              | **100%** |
 
-Learning outcomes:
+---
 
-- explain and use the method of dynamic programming for combinatory optimization
-- implement the calculation of Levenshtein distance between two strings
+## 1. Class Participation
 
-Assessment: an in-class quiz to demonstrate the understanding of dynamic programming - 5 points max. Rubric will be provided on the quiz.
+You are expected to attend each class session on time and to be prepared with completed assignments, including small projects that are relevant to the applied linguistics field. You should be prepared to actively participate in class discussions and to demonstrate that you have adequately prepared for the class session.
 
-**Topic 4. Computational analysis of English morphology: Hidden Markov Models (HMM) and Part-of-Speech (POS) tagging (Weeks 7-9)**
+Attendance is expected in this class, although there is no automatic grade penalty for missing a specific number of class sessions. If you do miss class, it is your responsibility to catch up with the material by obtaining notes from a classmate.
 
-Readings:
-  - [Jurafsky and Martin, Chapter 8](https://web.stanford.edu/~jurafsky/slp3/8.pdf)
+---
 
-Learning outcomes:
+## 2. Six Module Assessments
 
-- explain how HMMs work and discuss the simplifying assumptions of HMMs for the POS tagging task
-- explain the logic and the benefits of the Viterbi algorithm for POS tagging
-- implement the training and classification procedures for a statistical (HMM) POS tagger
+At the end of each of the six instructional modules, you will complete an in-class module assessment. Each assessment will evaluate your understanding of the concepts, computational representations, and algorithms introduced in that module.
 
-Assessment: participation points (10 max). Participation will be assessed holistically based on the following criteria:
+There will be six module assessments, each worth 10% of the final grade. At the end of the semester, your **lowest-scoring module assessment will be dropped**, and your five highest scores will contribute to the 50% module-assessment portion of your final grade.
 
-- consistency of preparation for class, meaningful participation in in-class activities
-- substantive contribution to group work on the development of a statistical POS tagger
-- evidence of the ability to synthesize prior linguistic knowledge for the development of the computational systems
+Each module assessment will also include an **optional take-home coding component**. This component will provide an opportunity to implement the algorithm or computational method covered in the module and apply it to a linguistic dataset or problem. Completion of the coding component is not required and will not negatively affect your grade if you choose not to complete it.
 
-**Topic 5. Computational analysis of English syntax: post-processing syntactic-parse information (Weeks 10-11)**
+Successful completion of the coding component may earn **bonus points** that can be used to improve your overall course grade. Additional instructions and the number of available bonus points will be provided with each assessment.
 
-Learning outcomes:
+---
 
-- understand computational representations of syntactic structures
-- computationally process syntactic-parse information
+## 3. Final Project Presentation and Exam
 
-Assessment: participation points (10 max). Participation will be assessed holistically based on the following criteria:
-- consistency of preparation for class, meaningful participation in in-class activities
-- substantive contribution to group work on post-processing syntactic-parse information
+### Final Project
 
-**Topic 6. Computational analysis of English semantics: WordNet and embeddings (Weeks 12-13)**
+For the final project, you will develop a computational linguistics project that addresses a linguistic or applied linguistics question using **at least one of the six computational modules** covered in the course.
 
-Learning outcomes:
+Your project should include:
 
-- understand computational representations of meaning
-- computationally process semantic information using WordNet and embeddings
+* A clearly defined linguistic or applied linguistics question
+* An appropriate linguistic dataset
+* Computational methods drawn from the course
+* An analysis of the results
+* A discussion of the implications and limitations of the approach
 
-Assessment: participation points (10 max). Participation will be assessed holistically based on the following criteria:
-- consistency of preparation for class, meaningful participation in in-class activities
-- substantive contribution to group work on computational semantics
+The project is intended to demonstrate your ability to select, implement, apply, and evaluate computational methods for a meaningful linguistic problem.
 
-**Personal Project (Weeks 14-15)**
+Projects may be completed individually or in an approved collaborative format. Additional project guidelines and evaluation criteria will be provided during the semester.
 
-Possible directions for the personal project include:
- - a corpus-based empirical research study
- - development of an automated writing evaluation tool/grammar checker
- - a natural-language understanding module for a (spoken) dialog system
+### Final Oral Exam
 
-The project must use at least one of the following:
- - post-processing of syntactic parse information
- - computational analysis of natural language semantics
+Toward the end of the semester, each student will participate in an individual oral examination with the instructor. The oral examination will assess your understanding of the computational methods covered in the course and your ability to explain, interpret, and critically evaluate the methods used in your final project.
 
-Assessment: a short paper documenting the final project - 30 points max, according to the following rubric:
-- clear and effective delivery of the Introduction section - 5 points
-- precise, succinct and reproducible description of methodology - 10 points
-- clear, accurate and unbiased presentation of results (empirical findings or system evaluation) - 10 points
-- discussion of findings within the broader context of research in applied linguistics - 5 points
+The oral examination may include questions about:
 
-**Note: There will be no final exam.**
+* Algorithms used in the course
+* Your implementation and analysis
+* Methodological decisions
+* Interpretation of results
+* Limitations of computational approaches
 
-**Grading scale:** 930	=> A, 900	=> A-, 870	=> B+, 830	=> B, etc.
+The **Final Oral Exam will be scheduled individually with the instructor**.
+
+---
+
+## Note on the Use of GenAI
+
+While GenAI can solve many of the programming challenges presented in this course, it is important to use it as a supplementary tool rather than a crutch. Relying solely on AI-generated solutions without understanding the underlying principles will hinder your ability to code independently and to debug AI-generated code effectively.
+
+Remember, the goal of this course is to equip you with the skills necessary to develop, analyze, and troubleshoot linguistic analysis tasks on your own. By practicing coding assignments manually, you will build a strong foundation that will allow you to critically evaluate and refine the output generated by AI tools.
+
+In essence, learning to code by hand is crucial for becoming proficient in programming, and GenAI should be viewed as an enhancer of this learning process, not a replacement for it.
+
+---
+
+## Syllabus Statements
+
+Iowa State University provides required and recommended syllabus statements, which are incorporated into this syllabus by reference as if fully stated here. You can review these statements through the Iowa State University syllabus statements webpage.
+
+---
+
+## Tentative Schedule
+
+*Schedule is subject to change.*
+
+| Weeks           | Topic                                      | Readings       | 
+| --------------- | ------------------------------------------ | -------------- | 
+| **Week 1**      | Introduction                               | —              |
+| **Weeks 2–3**   | Strings                                    | Section 2.9    |
+| **Weeks 4–5**   | Bag-of-Words                               | Section 11.1.1 |
+| **Weeks 6–7**   | n-grams                                    | Section 3.1    |
+| **Weeks 8–9**   | Hidden Markov Models                       | Section 17.4   |
+| **Weeks 10–11** | Graphs and Parsing                         | Chapters 18–19 |
+| **Weeks 12–13** | Word Embeddings and Neural Representations | Chapter 5      |
+| **Week 14**     | Final Project Presentations                | —              |
+| **Week 15**     | Final Oral Exam                            | —              |
+
 
