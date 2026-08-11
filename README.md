@@ -125,6 +125,6 @@ Iowa State University provides required and recommended syllabus statements, whi
 | **Weeks 10–11** | Graphs and Parsing                         | Chapters 18–19 |
 | **Weeks 12–13** | Word Embeddings and Neural Representations | Chapter 5      |
 | **Week 14**     | Final Project Presentations                | —              |
-| **Week 15**     | Final Oral Exam                            | —              |
+| **Week 15**     | Oral Exam (based on final projects)        | —              |
 
 
