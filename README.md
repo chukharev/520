@@ -107,7 +107,7 @@ In essence, learning to code by hand is crucial for becoming proficient in progr
 
 ## Syllabus Statements
 
-Iowa State University provides required and recommended syllabus statements, which are incorporated into this syllabus by reference as if fully stated here. You can review these statements through the Iowa State University syllabus statements webpage.
+Iowa State University provides required and recommended syllabus statements, which are incorporated into this syllabus by reference as if fully stated here. You can review these statements through the Iowa State University [syllabus statements webpage](https://celt.iastate.edu/prepare-and-teach/design-your-course/syllabus-statements/).
 
 ---
 
