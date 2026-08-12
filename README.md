@@ -4,7 +4,10 @@
 
 This course introduces students to fundamental concepts, representations, methods, and algorithms used in computational linguistics and natural language processing. The course emphasizes computational approaches to analyzing English language data, with applications to applied linguistics, language learning, assessment, and linguistic research.
 
----
+This course is fundamentally about **computational representations of language**. Computers do not process human language in the same way that humans do; they require language to be _represented_ in forms that can be stored, manipulated, and analyzed computationally. Designing these representations is not simply a technical task; it involves principled theoretical decisions about what aspects of language to preserve, what to abstract away, and how different linguistic phenomena should be modeled.
+
+Throughout the semester, we will follow a progression of increasingly rich representations of language. We begin by treating language as **strings of characters** and explore ways that we can calculate differences between pairs of strings. We then move to **bags of words**, where we represent language in terms of the words it contains and their frequencies, followed by **sequences of words**, which allow us to model word order. Next, we consider **annotated sequences**, in which linguistic information such as part-of-speech categories is incorporated into the representation as an additional, hidden layer. We then move to **graphs**, which allow us to represent more complex relationships among linguistic units, including syntactic structure and semantic relationships. Finally, we examine **embeddings**, which represent linguistic units as points in a multi-dimensional computational space that captures patterns of similarity and association. At each stage, we will consider not only how language can be represented, but also what kinds of linguistic questions each representation enables us to ask and what information it necessarily leaves out, and what kinds of algorithms can be used to process these types of representations.
+
 
 ## Course Materials
 
@@ -55,7 +58,7 @@ At the end of each of the six instructional modules, you will complete an in-cla
 
 There will be six module assessments, each worth 10% of the final grade. At the end of the semester, your **lowest-scoring module assessment will be dropped**, and your five highest scores will contribute to the 50% module-assessment portion of your final grade.
 
-Each module assessment will also include an **optional take-home coding component**. This component will provide an opportunity to implement the algorithm or computational method covered in the module and apply it to a linguistic dataset or problem. Completion of the coding component is not required and will not negatively affect your grade if you choose not to complete it.
+Each module assessment will also include an **optional take-home coding component**. This component will provide an opportunity to implement the computational representation, algorithm, or  method covered in the module and apply it to a linguistic dataset or problem. Completion of the coding component is not required and will not negatively affect your grade if you choose not to complete it.
 
 Successful completion of the coding component may earn **bonus points** that can be used to improve your overall course grade. Additional instructions and the number of available bonus points will be provided with each assessment.
 
@@ -79,19 +82,20 @@ The project is intended to demonstrate your ability to select, implement, apply,
 
 Projects may be completed individually or in an approved collaborative format. Additional project guidelines and evaluation criteria will be provided during the semester.
 
-### Final Oral Exam
+### Oral Exam
 
 Toward the end of the semester, each student will participate in an individual oral examination with the instructor. The oral examination will assess your understanding of the computational methods covered in the course and your ability to explain, interpret, and critically evaluate the methods used in your final project.
 
 The oral examination may include questions about:
 
+* Methods for representing language computationally
 * Algorithms used in the course
-* Your implementation and analysis
+* Your implementation and analysis in the final project
 * Methodological decisions
 * Interpretation of results
 * Limitations of computational approaches
 
-The **Final Oral Exam will be scheduled individually with the instructor**.
+The **Oral Exam will be scheduled individually with the instructor**.
 
 ---
 
@@ -118,12 +122,12 @@ Iowa State University provides required and recommended syllabus statements, whi
 | Weeks           | Topic                                      | Readings       | 
 | --------------- | ------------------------------------------ | -------------- | 
 | **Week 1**      | Introduction                               | —              |
-| **Weeks 2–3**   | Strings                                    | Section 2.9    |
-| **Weeks 4–5**   | Bag-of-Words                               | Section 11.1.1 |
-| **Weeks 6–7**   | n-grams                                    | Section 3.1    |
-| **Weeks 8–9**   | Hidden Markov Models                       | Section 17.4   |
-| **Weeks 10–11** | Graphs and Parsing                         | Chapters 18–19 |
-| **Weeks 12–13** | Word Embeddings and Neural Representations | Chapter 5      |
+| **Weeks 2–3**   | Language as a strings of characters                                    | Section 2.9    |
+| **Weeks 4–5**   | Language as a bag of words                               | Section 11.1.1 |
+| **Weeks 6–7**   | Language as a sequence of words (n-grams, Markov Models)                  | Section 3.1    |
+| **Weeks 8–9**   | Language as an annotated sequence (parts of speech, Hidden Markov Models)        | Section 17.4   |
+| **Weeks 10–11** | Language as a graph (syntax and semantics)                         | Chapters 18–19 |
+| **Weeks 12–13** | Language as an embedding | Chapter 5      |
 | **Week 14**     | Final Project Presentations                | —              |
 | **Week 15**     | Oral Exam (based on final projects)        | —              |
 
