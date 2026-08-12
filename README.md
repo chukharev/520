@@ -46,9 +46,7 @@ After completing this course, you will attain the following learning outcomes, w
 
 ## 1. Class Participation
 
-You are expected to attend each class session on time and to be prepared with completed assignments, including small projects that are relevant to the applied linguistics field. You should be prepared to actively participate in class discussions and to demonstrate that you have adequately prepared for the class session.
-
-Attendance is expected in this class, although there is no automatic grade penalty for missing a specific number of class sessions. If you do miss class, it is your responsibility to catch up with the material by obtaining notes from a classmate.
+Class participation is worth 20% of your final grade. Regular attendance, preparation, and active participation in class are expected and strongly encouraged. **Attendance itself is not graded, and there is no limit on the number of classes you may miss.** However, you are responsible for learning all material covered in class, whether or not you attend. If you miss class, you should obtain the relevant materials and prepare independently. The oral exam may include questions on material covered during classes you missed. Demonstrating full proficiency with that material on the oral exam can fully compensate for your absence and earn full participation credit.
 
 ---
 
