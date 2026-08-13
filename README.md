@@ -124,7 +124,7 @@ Iowa State University provides required and recommended syllabus statements, whi
 | **Weeks 4–5**   | Language as a bag of words                               | Section 11.1.1 |
 | **Weeks 6–7**   | Language as a sequence of words (n-grams, Markov Models)                  | Section 3.1    |
 | **Weeks 8–9**   | Language as an annotated sequence (parts of speech, Hidden Markov Models)        | Section 17.4   |
-| **Weeks 10–11** | Language as a graph (syntax and semantics)                         | Chapters 18–19 |
+| **Weeks 10–11** | Language as a graph (syntax and semantics)                         | [universaldependencies.org](https://universaldependencies.org/) |
 | **Weeks 12–13** | Language as an embedding | Chapter 5      |
 | **Week 14**     | Final Project Presentations                | —              |
 | **Week 15**     | Oral Exam (based on final projects)        | —              |
